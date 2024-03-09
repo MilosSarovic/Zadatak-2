@@ -1,0 +1,123 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #fff4f4;
+    padding: 1% 18% ;
+    margin: 0;
+    color: #404040;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: space-evenly; 
+    
+}
+.first{
+    padding-top: 3%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row {
+    flex:1;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.border {
+    height: inherit;
+    border-left: 2px solid #404040; 
+    border-right: 2px solid #404040;
+   
+}
+.date{
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #404040;
+    border-top: 2px solid #404040;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    margin: 0.8%;
+}
+.second h3{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.second ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    text-align: justify;
+    font-size: small;
+}
+ul{
+    font-size: small;
+    padding-left: 10px;
+}
+.heading h3 {
+    padding: 0 3%;
+}
+
+li::before{
+    content: "🍿"; 
+    margin-right: 0.5em;
+}
+li{
+    list-style: none;
+}
+.img_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    overflow: hidden; 
+}
+  
+.img_container img {
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block; 
+    margin: auto; 
+    margin: 0px;
+    
+}
+.paralel{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    
+}
+.img_descrption{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+.img_descrption p{
+    font-size: x-small;
+    text-align: justify;
+}
+.second {
+    align-items: flex-start;
+}
+sup {
+font-size: small;
+}
+.date h2{
+    font-size: medium;
+    background-color: #cbcbcb;
+    padding: 0 5px 3px 5px;
+}
+
